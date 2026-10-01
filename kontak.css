@@ -1,0 +1,97 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+    color: #1e293b;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+header h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 35px auto;
+}
+
+/* Card */
+.contact-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    border: 1px solid #dbeafe;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+    transition: 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.15);
+}
+
+/* Nama */
+.contact-card h2 {
+    color: #1d4ed8;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+/* Informasi kontak */
+.contact-card p {
+    background-color: #f8fafc;
+    padding: 11px 14px;
+    margin: 9px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contact-card strong {
+    color: #2563eb;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    header {
+        padding: 35px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 92%;
+        margin-top: 25px;
+    }
+
+    .contact-card {
+        padding: 20px;
+    }
+}
+```
